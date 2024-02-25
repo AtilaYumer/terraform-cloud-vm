@@ -37,7 +37,7 @@ resource "google_compute_instance" "compute_instance" {
 
   boot_disk {
     initialize_params {
-      image = "docker.io/ubuntu:18.04"
+      image = "ubuntu-os-cloud/ubuntu-2004-lts"
     }
   }
 
